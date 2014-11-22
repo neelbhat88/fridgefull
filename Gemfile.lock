@@ -78,6 +78,10 @@ GEM
     rake (10.3.2)
     rdoc (3.12.2)
       json (~> 1.4)
+    rspec (3.0.0)
+      rspec-core (~> 3.0.0)
+      rspec-expectations (~> 3.0.0)
+      rspec-mocks (~> 3.0.0)
     rspec-collection_matchers (1.0.0)
       rspec-expectations (>= 2.99.0.beta1)
     rspec-core (3.0.4)
@@ -120,6 +124,7 @@ DEPENDENCIES
   pg
   rails (= 3.2.19)
   rails-api
+  rspec
   rspec-collection_matchers
   rspec-rails (~> 3.0.0)
   unicorn
